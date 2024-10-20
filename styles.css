@@ -1,0 +1,20 @@
+.TopLogo {
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.TopLogo-hover {
+    display: none;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+header:hover .TopLogo {
+    display: none;
+}
+
+header:hover .TopLogo-hover {
+    display: block;
+}
