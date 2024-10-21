@@ -3,6 +3,7 @@ body {
     color: rgba(65, 39, 114, 70);
     background-color: #E1D8F3;
     font-weight: 200;
+    margin: 0;
 }
 
 h1 {
@@ -27,16 +28,15 @@ h2 {
 }
 
 .TopLogo {
-    width: 50px;
-    padding: 0;
-    margin: 0;
+    width: 40px;
+    padding: 8px 16px;
+    float: left;
 }
 
 .TopLogo-hover {
     display: none;
-    width: 50px;
-    padding: 0;
-    margin: 0;
+    width: 40px;
+    padding: 8px 16px;
 }
 
 .hamburger-menu {
@@ -45,13 +45,55 @@ h2 {
 
 header:hover .TopLogo {
     display: none;
+    float: left;
 }
 
 header:hover .TopLogo-hover {
     display: block;
+    float: left;
 }
 
 header:hover .hamburger-menu{
     color: #B19CD7;
+}
+
+nav {
+    background-color: #B19CD7;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav:hover {
+    background-color: #FEFEF5;
+}
+
+.menu {
+    float: right;
+}
+
+#top {
+    float: left;
+}
+
+nav div a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav:hover div a {
+    color: #B19CD7;
+
+}
+
+nav div a:hover {
+    color: rgba(65, 39, 114, 70);
+    background-color: #EBE6F5;
 }
 
