@@ -6,7 +6,8 @@ body {
     margin: 0;
     background-image: url("assets/bg-org.png");
     background-attachment: fixed;
-    background-size: cover
+    background-size: cover;
+    line-height: 1.8;
 }
 
 h1 {
@@ -135,5 +136,24 @@ footer {
 #contact .contact-links {
     padding-top: 50px;
 }
+
+#top .links {
+    padding-top: 25px;
+}
+
+#top .links a {
+    width: 100px;
+    padding: 0 7px
+}
+
+#contact .contact-links a {
+    width: 100px;
+    padding: 0 7px
+}
+
+#about p {
+    padding-top: 25px;
+}
+
 
 
