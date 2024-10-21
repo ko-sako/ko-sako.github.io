@@ -4,6 +4,9 @@ body {
     background-color: #E1D8F3;
     font-weight: 200;
     margin: 0;
+    background-image: url("assets/bg-org.png");
+    background-attachment: fixed;
+    background-size: cover
 }
 
 h1 {
