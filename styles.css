@@ -76,7 +76,7 @@ nav:hover {
 }
 
 #top {
-    float: left;
+
 }
 
 nav div a {
@@ -96,4 +96,41 @@ nav div a:hover {
     color: rgba(65, 39, 114, 70);
     background-color: #EBE6F5;
 }
+
+main {
+    padding-top: 60px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer {
+    padding-top: 150px;
+    text-align: center;
+}
+
+#about {
+    padding-top: 150px;
+}
+
+#about img {
+    padding-top: 50px;
+}
+
+#works {
+    padding-top: 150px;
+}
+
+#works .work-items {
+    padding-top: 50px;
+}
+
+#contact {
+    padding-top: 150px;
+}
+
+#contact .contact-links {
+    padding-top: 50px;
+}
+
 
