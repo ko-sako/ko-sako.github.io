@@ -1,3 +1,31 @@
+body {
+    font-family: "Inter", sans-serif;
+    color: rgba(65, 39, 114, 70);
+    background-color: #E1D8F3;
+    font-weight: 200;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: xxx-large;
+    color: rgba(65, 39, 114, 100);
+}
+
+h2 {
+    color: rgba(65, 39, 114, 100);
+}
+
+#top p {
+    font-size: larger;
+    font-weight: normal;
+}
+
+.highlight-font {
+    color: #F9F3A7;
+    font-weight: normal;
+    font-size: x-large;
+}
+
 .TopLogo {
     width: 50px;
     padding: 0;
@@ -11,6 +39,10 @@
     margin: 0;
 }
 
+.hamburger-menu {
+    color: #FEFEF5;
+}
+
 header:hover .TopLogo {
     display: none;
 }
@@ -18,3 +50,8 @@ header:hover .TopLogo {
 header:hover .TopLogo-hover {
     display: block;
 }
+
+header:hover .hamburger-menu{
+    color: #B19CD7;
+}
+
