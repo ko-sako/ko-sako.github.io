@@ -154,6 +154,44 @@ footer {
 #about p {
     padding-top: 25px;
 }
+.work-items {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+#works a {
+    display: flex;
+    flex-direction: column;
+    background-color: #EBE6F5;
+    color: #B19CD7;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
 
+#works a:hover {
+    background-color: #B19CD7;
+    color: #FEFEF5;
+    text-decoration: none;
+}
+
+#works a .text h3{
+    margin: 0;
+    padding: 0;
+}
+
+#works a .text{
+    margin: 0;
+    padding: 0;
+    line-height: 0.1;
+}
+
+#works a .small {
+    font-size: smaller;
+}
 
 
