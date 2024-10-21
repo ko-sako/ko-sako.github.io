@@ -5,58 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kayo OSAKO - Software Engineer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="#top">
-        <img src="assets/TopLogo-default.png" alt="TopLogo" class="TopLogo"> <!-- default top logo image -->
-        <img src="assets/TopLogo-hover.png" alt="TopLogo Hover" class="TopLogo-hover"> <!-- hovering top logo -->
-        </a>
         <nav class="navbar">
-            <div class="hamburger-menu">&#9776;</div>
-            <ul class="menu hidden">
-                <li><a href="#top">Kayo OSAKO</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="index.html">
+                <img src="assets/TopLogo-default.png" alt="TopLogo" class="TopLogo"> <!-- default top logo image -->
+                <img src="assets/TopLogo-hover.png" alt="TopLogo Hover" class="TopLogo-hover"> <!-- hovering top logo -->
+            </a>
+            <!-- <div class="hamburger-menu">&#9776;</div> -->
+            <div class="menu">
+                <!-- <a href="#top">Kayo OSAKO</a> -->
+                <a href="#about">About</a> <a href="#works">Works</a> <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
 
-    <section id="top">
-        <h1>Hello, I am <span>Kayo OSAKO</span></h1>
-        <p>I am an aspiring software engineer with over 5 years of experience in the IT industry in Japan, including more than 2 years as a software development product manager.</p>
-        <div class="links">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Email</a>
-            <a href="#">CV</a>
-        </div>
-    </section>
+    <main>
+        <section id="top">
+            <h1><span class="highlight-font">Hello, I am </span><br> Kayo OSAKO</h1>
+            <p>I am an aspiring software engineer with over 5 years of experience in the IT industry in Japan, including more than 2 years as a software development product manager.</p>
+            <div class="links">
+                <a href="https://github.com/ko-sako"><img src="assets/github.png" alt="Link to Kayo's Github repo"></a>
+                <a href="https://www.linkedin.com/in/kayo-osako-0b4699170/"><img src="assets/linkedin.png" alt="Link to Kayo's LinkedIn page"></a>
+                <a href="mailto:lapin.587k@gmail.com"><img src="assets/mail.png" alt="Send email to Kayo"></a>
+                <a href="assets/2401021CV_KayoOsako-open.pdf" download><img src="assets/cv.png" alt="Download Kayo's CV"></a>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About</h2>
-        <img src="assets/profile.png" alt="Kayo Osako">
-        <p>I’m Kayo Osako, an aspiring software engineer with experience in product management in Japan. I am passionate about human-computer interaction and focus on enhancing customer satisfaction through thoughtful UX design. With a Bachelor's degree in Computer Science and a Master's degree in Artificial Intelligence, I am currently deepening my practical knowledge of software development at Cardiff University.</p>
-    </section>
+        <section id="about">
+            <h2>About</h2>
+            <img src="assets/profile.png" alt="Kayo Osako">
+            <p>I’m Kayo Osako, an aspiring software engineer with experience in product management in Japan. I am passionate about human-computer interaction and focus on enhancing customer satisfaction through thoughtful UX design. With a Bachelor's degree in Computer Science and a Master's degree in Artificial Intelligence, I am currently deepening my practical knowledge of software development at Cardiff University.</p>
+        </section>
 
-    <section id="works">
-        <h2>Works</h2>
-        <div class="work-items">
-            <a href="#">Work 1</a>
-            <a href="#">Work 2</a>
-            <a href="#">Work 3</a>
-        </div>
-    </section>
+        <section id="works">
+            <h2>Works</h2>
+            <div class="work-items">
+                <a href="#">
+                    <div class="work-title text"><h3>Portfolio Site</h3></div><br>
+                    <div class="text small">HTML, CSS</div>
+                </a>
+                <a href="#">
+                    <div class="work-title text"><h3>Portfolio Site</h3></div><br>
+                    <div class="text small">HTML, CSS</div>
+                </a>
+                <a href="#">
+                    <div class="work-title text"><h3>Portfolio Site</h3></div><br>
+                    <div class="text small">HTML, CSS</div>
+                </a>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="contact-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Email</a>
-            <a href="#">CV</a>
-        </div>
-    </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/kayo-osako-0b4699170/"><img src="assets/linkedin.png" alt="Link to Kayo's LinkedIn page"></a>
+                <a href="mailto:lapin.587k@gmail.com"><img src="assets/mail.png" alt="Send email to Kayo"></a>
+                <a href="assets/2401021CV_KayoOsako-open.pdf" download><img src="assets/cv.png" alt="Download Kayo's CV"></a>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>© Copyright 2024 All rights reserved.</p>

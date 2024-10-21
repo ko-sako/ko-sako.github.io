@@ -1,20 +1,197 @@
-.TopLogo {
-    width: 50px;
-    padding: 0;
+body {
+    font-family: "Inter", sans-serif;
+    color: rgba(65, 39, 114, 70);
+    background-color: #E1D8F3;
+    font-weight: 200;
     margin: 0;
+    background-image: url("assets/bg-org.png");
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: 1.8;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: xxx-large;
+    color: rgba(65, 39, 114, 100);
+}
+
+h2 {
+    color: rgba(65, 39, 114, 100);
+}
+
+#top p {
+    font-size: larger;
+    font-weight: normal;
+}
+
+.highlight-font {
+    color: #F9F3A7;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+.TopLogo {
+    width: 40px;
+    padding: 8px 16px;
+    float: left;
 }
 
 .TopLogo-hover {
     display: none;
-    width: 50px;
-    padding: 0;
-    margin: 0;
+    width: 40px;
+    padding: 8px 16px;
+}
+
+.hamburger-menu {
+    color: #FEFEF5;
 }
 
 header:hover .TopLogo {
     display: none;
+    float: left;
 }
 
 header:hover .TopLogo-hover {
     display: block;
+    float: left;
 }
+
+header:hover .hamburger-menu{
+    color: #B19CD7;
+}
+
+nav {
+    background-color: #B19CD7;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav:hover {
+    background-color: #FEFEF5;
+}
+
+.menu {
+    float: right;
+}
+
+#top {
+
+}
+
+nav div a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav:hover div a {
+    color: #B19CD7;
+
+}
+
+nav div a:hover {
+    color: rgba(65, 39, 114, 70);
+    background-color: #EBE6F5;
+}
+
+main {
+    padding-top: 60px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer {
+    padding-top: 150px;
+    text-align: center;
+}
+
+#about {
+    padding-top: 150px;
+}
+
+#about img {
+    padding-top: 50px;
+}
+
+#works {
+    padding-top: 150px;
+}
+
+#works .work-items {
+    padding-top: 50px;
+}
+
+#contact {
+    padding-top: 150px;
+}
+
+#contact .contact-links {
+    padding-top: 50px;
+}
+
+#top .links {
+    padding-top: 25px;
+}
+
+#top .links a {
+    width: 100px;
+    padding: 0 7px
+}
+
+#contact .contact-links a {
+    width: 100px;
+    padding: 0 7px
+}
+
+#about p {
+    padding-top: 25px;
+}
+.work-items {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+#works a {
+    display: flex;
+    flex-direction: column;
+    background-color: #EBE6F5;
+    color: #B19CD7;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#works a:hover {
+    background-color: #B19CD7;
+    color: #FEFEF5;
+    text-decoration: none;
+}
+
+#works a .text h3{
+    margin: 0;
+    padding: 0;
+}
+
+#works a .text{
+    margin: 0;
+    padding: 0;
+    line-height: 0.1;
+}
+
+#works a .small {
+    font-size: smaller;
+}
+
+
