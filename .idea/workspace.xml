@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8e59430-0c1c-4ece-a6be-8857556a8566" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c8e59430-0c1c-4ece-a6be-8857556a8566" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Styles",
+    "git-widget-placeholder": "2-refactor-plain-javascript-code-to-react",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/c24089518/OneDrive - Cardiff University/Documents/IndividualProject/Portfolio_KayoOsako",
     "list.type.of.created.stylesheet": "CSS",
@@ -67,7 +65,7 @@
       <workItem from="1729456816797" duration="6133000" />
       <workItem from="1729522569837" duration="776000" />
       <workItem from="1729524229197" duration="16264000" />
-      <workItem from="1739896252339" duration="660000" />
+      <workItem from="1739896252339" duration="836000" />
     </task>
     <servers />
   </component>
