@@ -10,7 +10,6 @@ function App() {
       <div>
         <Header/>
         <main>
-          Hello!!!
           <section id="top">
             <h1><span className="highlight-font">Hello, I am </span><br/> Kayo OSAKO</h1>
             <p>I am an aspiring software engineer with over 5 years of experience in the IT industry in Japan, including
