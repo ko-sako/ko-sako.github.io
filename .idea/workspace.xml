@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e59430-0c1c-4ece-a6be-8857556a8566" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Works.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Works.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/portfolio/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -43,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "2-refactor-plain-javascript-code-to-react",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/c24089518/OneDrive - Cardiff University/Documents/IndividualProject/Portfolio_KayoOsako",
+    "last_opened_file_path": "C:/Users/c24089518/Documents/GitRepo/Portfolio_KayoOsako",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,6 +65,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\c24089518\OneDrive - Cardiff University\Documents\IndividualProject\Portfolio_KayoOsako\portfolio\public" />
+      <recent name="C:\Users\c24089518\OneDrive - Cardiff University\Documents\IndividualProject\Portfolio_KayoOsako\portfolio\src" />
+      <recent name="C:\Users\c24089518\OneDrive - Cardiff University\Documents\IndividualProject\Portfolio_KayoOsako\portfolio\src\components" />
       <recent name="C:\Users\c24089518\OneDrive - Cardiff University\Documents\IndividualProject\Portfolio_KayoOsako\js" />
     </key>
   </component>
@@ -71,7 +83,8 @@
       <workItem from="1729456816797" duration="6133000" />
       <workItem from="1729522569837" duration="776000" />
       <workItem from="1729524229197" duration="16264000" />
-      <workItem from="1739896252339" duration="3382000" />
+      <workItem from="1739896252339" duration="5344000" />
+      <workItem from="1739908221858" duration="369000" />
     </task>
     <servers />
   </component>

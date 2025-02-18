@@ -4,14 +4,12 @@ import "../styles.css";
 const Header = () => {
     return (
         <header>
-            <nav class="navbar">
+            <nav className="navbar">
                 <a href="index.html">
-                    <img src="assets/TopLogo-default.png" alt="TopLogo" class="TopLogo" /> <!-- default top logo image -->
-                    <img src="assets/TopLogo-hover.png" alt="TopLogo Hover" class="TopLogo-hover" /> <!-- hovering top logo -->
+                    <img src="assets/TopLogo-default.png" alt="TopLogo" class="TopLogo" />
+                    <img src="assets/TopLogo-hover.png" alt="TopLogo Hover" class="TopLogo-hover" />
                 </a>
-                <!-- <div class="hamburger-menu">&#9776;</div> -->
-                <div class="menu">
-                    <!-- <a href="#top">Kayo OSAKO</a> -->
+                <div className="menu">
                     <a href="#about">About</a> <a href="#works">Works</a> <a href="#contact">Contact</a>
                 </div>
             </nav>
