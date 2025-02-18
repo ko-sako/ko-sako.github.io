@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e59430-0c1c-4ece-a6be-8857556a8566" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Works.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Works.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +78,7 @@
       <workItem from="1729522569837" duration="776000" />
       <workItem from="1729524229197" duration="16264000" />
       <workItem from="1739896252339" duration="5344000" />
-      <workItem from="1739908221858" duration="593000" />
+      <workItem from="1739908221858" duration="1182000" />
     </task>
     <servers />
   </component>
