@@ -1,2 +1,2 @@
-### https://github.com/ko-sako/ko-sako.github.io/deployments/github-pages
+### https://ko-sako.github.io/
 My portfolio site using ReactJS
